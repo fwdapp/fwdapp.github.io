@@ -4,29 +4,69 @@
         <meta charset="utf-8">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.0.16/css/bulma.min.css">
         <link rel="stylesheet" href="https://cdn.rawgit.com/marvelapp/devices.css/master/assets/devices.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css">
+        <link href="http://vjs.zencdn.net/5.8.7/video-js.css" rel="stylesheet">
         <title>FingerFrame</title>
     </head>
     <body>
         <div>
             <section class="hero is-fullheight is-primary is-bold">
+                <div class="hero-header">
+                    <div class="container">
+                        <div class="columns" style="margin-top: 50px">
+                            <div class="column is-text-right">
+                                <a href="http://apple.fr" style="color: white">
+                                    <i class="fa fa-apple fa-5x"></i>
+                                </a>
+                            </div>
+                            <div class="column is-text-left">
+                                <a href="http://google.fr" style="color: white">
+                                    <i class="fa fa-android fa-5x"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
                 <div class="hero-content">
                     <div>
-                        <div class="marvel-device iphone6 silver">
+                        <div class="marvel-device nexus5">
+                            <div class="top-bar"></div>
+                            <div class="sleep"></div>
+                            <div class="volume"></div>
+                            <div class="camera"></div>
+                            <div class="screen" style="z-index: 1000">
+                                <video id="my-video" class="video-js" loop autoplay preload="auto" width="320" height="568" data-setup="{}">
+                                    <source src="/video/2016_03_31_14_24_16.mp4" type='video/mp4'>
+                                    <p class="vjs-no-js">
+                                        To view this video please enable JavaScript, and consider upgrading to a web browser that
+                                        <a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+                                    </p>
+                                </video>
+                            </div>
+                        </div>
+                        <!-- <div class="marvel-device iphone6 silver">
                             <div class="top-bar"></div>
                             <div class="sleep"></div>
                             <div class="volume"></div>
                             <div class="camera"></div>
                             <div class="sensor"></div>
                             <div class="speaker"></div>
-                            <div class="screen">
-                                <!-- Content goes here -->
+                            <div class="screen" style="z-index: 1000">
+                                <video id="my-video" class="video-js" controls autoplay preload="auto" width="375" height="667" data-setup="{}">
+                                    <source src="/video/2016_03_31_14_24_16.mp4" type='video/mp4'>
+                                    <p class="vjs-no-js">
+                                        To view this video please enable JavaScript, and consider upgrading to a web browser that
+                                        <a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+                                    </p>
+                                </video>
                             </div>
                             <div class="home"></div>
                             <div class="bottom-bar"></div>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
             </section>
         </div>
+        <script src="http://vjs.zencdn.net/5.8.7/video.js"></script>
     </body>
 </html>
