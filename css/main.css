@@ -1,0 +1,10 @@
+a {
+    transition: all .2s ease-in-out;
+    color: white
+}
+
+a:hover {color: black}
+
+.is-green{
+    background-color: #00e197
+}
