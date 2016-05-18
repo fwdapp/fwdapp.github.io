@@ -3,7 +3,9 @@ a {
     color: white
 }
 
-a:hover {color: black}
+a:hover {
+    color: black
+}
 
 .is-green{
     background-color: #00e197

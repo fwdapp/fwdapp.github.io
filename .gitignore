@@ -1,0 +1,11 @@
+/node_modules
+/csv
+
+### OSX template
+.DS_Store
+
+### Node template
+# Logs
+logs
+*.log
+npm-debug.log*
