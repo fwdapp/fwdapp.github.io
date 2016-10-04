@@ -8,9 +8,17 @@ a:hover {
 }
 
 .title{
-    color: white;
+    font-family: 'Raleway', sans-serif;
+    color: #00e197;
 }
 
-.is-green{
-    background-color: #00e197 !important;
+.logo{
+    width: 128px;
+    height: 128px;
+    margin-top: 50px;
+}
+
+.is-body{
+    background-image: url('/img/geometry2.png');
+    background-repeat: repeat;
 }
