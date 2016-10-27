@@ -7,7 +7,9 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.0.28/css/bulma.min.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css">
         <link rel="stylesheet" href="/forwardapp/css/main.css">
-        <title>FingerFrame</title>
+        <link rel="stylesheet" href="/forwardapp/css/unslider.css">
+        <link rel="stylesheet" href="/forwardapp/css/unslider-dots.css">
+        <title>Forward</title>
     </head>
     <body class="is-body">
         <div>
@@ -47,25 +49,42 @@
                     <div class="column">
                         <div class="columns">
                             <div class="column has-text-centered">
-                                <img id="iphone" src="/forwardapp/img/iphones/stream.png" style="width: 400px"/>
+                                <div class="my-slider">
+                                    <ul>
+                                        <li>
+                                            <img id="iphone" src="/forwardapp/img/iphones/login.png" style="width: 400px"/>
+                                        </li>
+                                        <li>
+                                            <img id="iphone" src="/forwardapp/img/iphones/stream.png" style="width: 400px"/>
+                                        </li>
+                                        <li>
+                                            <img id="iphone" src="/forwardapp/img/iphones/publication_requests.png" style="width: 400px"/>
+                                        </li>
+                                        <li>
+                                            <img id="iphone" src="/forwardapp/img/iphones/picture_viewer.png" style="width: 400px"/>
+                                        </li>
+                                    </ul>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </section>
         </div>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/unslider/2.0.3/js/unslider-min.js"></script>
+        <script>
+            jQuery(document).ready(function($) {
+    			$('.my-slider').unslider({
+                    animation: 'vertical',
+                    delay: 5000,
+                    speed: 400,
+                    autoplay: true,
+                    infinite: true,
+                    nav: false,
+                    arrows: false
+                });
+    		});
+        </script>
     </body>
-    <script>
-        // console.log('test');
-        // var test1 = [
-        //     '/forwardapp/img/iphones/login.png',
-        //     '/forwardapp/img/iphones/stream.png',
-        //     '/forwardapp/img/iphones/picture_viewer.png',
-        //     '/forwardapp/img/iphones/publication_requests.png'
-        // ];
-        // var test = document.getElementById('iphone');
-        // setInterval(function(){
-        //     test.setAttribute('src', test1[Math.floor(Math.random() * test1.length)]);
-        // }, 4000)
-    </script>
 </html>
