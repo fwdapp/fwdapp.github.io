@@ -11,13 +11,13 @@ a:hover {
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
     font-size: 50px;
-    color: #00e197;
+    color: white;
 }
 
 .subtitle{
     font-family: 'Roboto', sans-serif;
     font-size: 50px;
-    color: #00e197;
+    color: aquamarine;
 }
 
 .logo{
@@ -25,11 +25,20 @@ a:hover {
     height: 100px;
 }
 
-.is-body{
+.badge{
+    max-width: 200px;
+}
+
+.left-side{
+    background-color: #00e197;
+}
+
+.right-side{
     background-image: url('/forwardapp/img/geometry2.png');
     background-repeat: repeat;
 }
 
-.badge{
-    max-width: 200px;
+footer{
+    background: transparent;
+    padding: 10px !important;
 }
