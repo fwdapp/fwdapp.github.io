@@ -1,72 +1,59 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" style="height: 100%">
     <head>
         <meta charset="utf-8">
         <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport" />
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.0.28/css/bulma.min.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css">
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
         <link rel="stylesheet" href="/forwardapp/css/main.css">
         <title>Forward</title>
     </head>
-    <body>
-        <div>
-            <section>
-                <div class="columns">
-                    <div class="column left-side">
-                        <div class="columns" style="margin-top: 170px">
-                            <div class="column has-text-centered">
-                                <img class="logo" src="/forwardapp/img/logo_blank.png" />
-                                <h1 class="title">
-                                    Forward
-                                </h1>
-                            </div>
-                        </div>
-                        <div class="columns">
-                            <div class="column has-text-centered">
-                                <h1 class="subtitle">
-                                    Ask others to publish
-                                </h1>
-                            </div>
-                        </div>
-                        <div class="columns">
-                            <div class="column"></div>
-                            <div class="column has-text-centered">
-                                <a href="https://itunes.apple.com/gb/app/fingerframe/id1131137241?mt=8">
-                                    <img class="badge" src="/forwardapp/img/app-store-badge.png" />
-                                </a>
-                            </div>
-                            <div class="column has-text-centered">
-                                <a href="https://play.google.com/store/apps/details?id=com.fingerframe">
-                                    <img class="badge" src="/forwardapp/img/google-play-badge.png" />
-                                </a>
-                            </div>
-                            <div class="column"></div>
+    <body style="height: 100%">
+        <section style="height: 100%">
+            <div class="columns is-gapless" style="height: 100%">
+                <div class="column left-side">
+                    <div class="columns" style="margin-top: 170px">
+                        <div class="column has-text-centered">
+                            <img class="logo" src="/forwardapp/img/logo_blank.png" />
+                            <h1 class="title">
+                                Forward
+                            </h1>
                         </div>
                     </div>
-                    <div class="column right-side">
-                        <div class="columns">
-                            <div class="column has-text-centered">
-                                <img src="/forwardapp/img/iphones/sent.png" style="width: 400px"/>
-                            </div>
+                    <div class="columns">
+                        <div class="column has-text-centered">
+                            <h1 class="subtitle">
+                                Ask others to publish
+                            </h1>
+                        </div>
+                    </div>
+                    <div class="columns">
+                        <div class="column"></div>
+                        <div class="column has-text-centered">
+                            <a href="https://itunes.apple.com/gb/app/fingerframe/id1131137241?mt=8">
+                                <img class="badge" src="/forwardapp/img/app-store-badge.png" />
+                            </a>
+                        </div>
+                        <div class="column has-text-centered">
+                            <a href="https://play.google.com/store/apps/details?id=com.fingerframe">
+                                <img class="badge" src="/forwardapp/img/google-play-badge.png" />
+                            </a>
+                        </div>
+                        <div class="column"></div>
+                    </div>
+                </div>
+                <div class="column right-side">
+                    <div class="columns">
+                        <div class="column has-text-centered">
+                            <img id="login" style="display: none" src="/forwardapp/img/iphones/silver/login.png" style="width: 350px"/>
+                            <img id="sent" src="/forwardapp/img/iphones/silver/sent.png" style="width: 350px"/>
+                            <img id="received" style="display: none" src="/forwardapp/img/iphones/silver/received.png" style="width: 350px"/>
                         </div>
                     </div>
                 </div>
-            </section>
-<!-- <footer class="footer">
-<div class="container">
-<div class="content has-text-centered">
-<p>
-<strong>Forward</strong> v1.0.0 2017. Made with
-<a href="https://facebook.github.io/react-native/">React Native</a>
-<img style="width: 20px" src="/forwardapp/img/react.png" />.
-<a class="icon" href="https://twitter.com/frwrdapp">
-<i class="fa fa-twitter"></i>
-</a>
-</p>
-</div>
-</div>
-</footer> -->
-</div>
-</body>
+            </div>
+        </section>
+    </body>
 </html>
