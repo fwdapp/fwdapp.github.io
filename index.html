@@ -1,59 +1,116 @@
 <!doctype html>
-<html lang="en" style="height: 100%">
+<html lang="en">
     <head>
         <meta charset="utf-8">
         <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport" />
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.0.28/css/bulma.min.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css">
         <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.1.1/aos.js"></script>
         <link rel="stylesheet" href="/forwardapp/css/main.css">
         <title>Forward</title>
     </head>
-    <body style="height: 100%">
-        <section style="height: 100%">
-            <div class="columns is-gapless" style="height: 100%">
-                <div class="column left-side">
-                    <div class="columns" style="padding-top: 100px">
-                        <div class="column has-text-centered">
-                            <img class="logo" src="/forwardapp/img/logo_blank.png" />
+    <body>
+        <section>
+            <div class="columns">
+                <div class="column left-side" style="background-color: #00e197">
+                    <section class="hero is-medium" style="background-color: #00e197">
+                      <div class="hero-body">
+                        <div class="container has-text-centered">
+                            <img class="logo" src="/forwardapp/img/logo_blank_big.png" />
                             <h1 class="title">
                                 Forward
                             </h1>
+                              <h1 class="subtitle">
+                                  Ask others to publish
+                              </h1>
+                              <div class="columns">
+                                  <div class="column"></div>
+                                  <div class="column has-text-centered">
+                                      <a href="https://itunes.apple.com/gb/app/fingerframe/id1131137241?mt=8">
+                                          <img class="badge" src="/forwardapp/img/app-store-badge.png" />
+                                      </a>
+                                  </div>
+                                  <div class="column has-text-centered">
+                                      <a href="https://play.google.com/store/apps/details?id=com.fingerframe">
+                                          <img class="badge" src="/forwardapp/img/google-play-badge.png" />
+                                      </a>
+                                  </div>
+                                  <div class="column"></div>
+                              </div>
                         </div>
-                    </div>
-                    <div class="columns">
-                        <div class="column has-text-centered">
-                            <h1 class="subtitle">
-                                Ask others to publish
-                            </h1>
-                        </div>
-                    </div>
-                    <div class="columns">
-                        <div class="column"></div>
-                        <div class="column has-text-centered">
-                            <a href="https://itunes.apple.com/gb/app/fingerframe/id1131137241?mt=8">
-                                <img class="badge" src="/forwardapp/img/app-store-badge.png" />
-                            </a>
-                        </div>
-                        <div class="column has-text-centered">
-                            <a href="https://play.google.com/store/apps/details?id=com.fingerframe">
-                                <img class="badge" src="/forwardapp/img/google-play-badge.png" />
-                            </a>
-                        </div>
-                        <div class="column"></div>
-                    </div>
+                      </div>
+                    </section>
                 </div>
                 <div class="column right-side">
-                    <div class="columns">
-                        <div class="column has-text-centered" style="padding-top: 20px">
-                            <img id="login" style="display: none" src="/forwardapp/img/iphones/silver/login.png" style="width: 380px"/>
-                            <img id="sent" src="/forwardapp/img/iphones/silver/sent.png" style="width: 380px"/>
-                            <img id="received" style="display: none" src="/forwardapp/img/iphones/silver/received.png" style="width: 380px"/>
+                    <div class="columns is-gapless">
+                        <div class="column has-text-centered">
+                            <img id="login" src="/forwardapp/img/iphones/silver/login.png" style="width: 380px"/>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="columns">
+                <div class="column left-side" style="background-color: #17E3A0">
+                    <section class="hero is-medium" style="background-color: #17E3A0">
+                      <div class="hero-body">
+                        <div data-aos="fade-down-right" data-aos-offset="250">
+                            <div class="container has-text-centered">
+                                <img class="logo" src="/forwardapp/img/sent.png" />
+                                <h1 class="title">
+                                    Send
+                                </h1>
+                                <h1 class="subtitle">
+                                    publication requests
+                                </h1>
+                            </div>
+                        </div>
+                      </div>
+                    </section>
+                </div>
+                <div class="column right-side">
+                    <div class="columns is-gapless">
+                        <div class="column has-text-centered">
+                            <div data-aos="fade-up-left" data-aos-offset="350">
+                                <img id="sent" src="/forwardapp/img/iphones/silver/sent.png" style="width: 380px"/>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="columns">
+                <div class="column left-side" style="background-color: #2EE6A9; padding-bottom: 40px">
+                    <section class="hero is-medium" style="background-color: #2EE6A9">
+                      <div class="hero-body">
+                        <div data-aos="fade-down-right" data-aos-offset="350">
+                            <div class="container has-text-centered">
+                                <img class="logo" src="/forwardapp/img/received.png" />
+                                <h1 class="title">
+                                    Receive
+                                </h1>
+                                <h1 class="subtitle">
+                                    publication requests
+                                </h1>
+                            </div>
+                        </div>
+                      </div>
+                    </section>
+                </div>
+                <div class="column right-side" style="padding-bottom: 40px">
+                    <div class="columns is-gapless">
+                        <div class="column has-text-centered">
+                            <div data-aos="fade-up-left" data-aos-offset="450">
+                                <img id="received" src="/forwardapp/img/iphones/silver/received.png" style="width: 380px"/>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
     </body>
+    <script>
+        AOS.init();
+    </script>
 </html>

@@ -1,3 +1,12 @@
+html {
+    background: #f9fafb;
+}
+
+body {
+    background-image: url('/forwardapp/img/geometry2.png');
+    background-repeat: repeat;
+}
+
 a {
     transition: all .2s ease-in-out;
     color: white
@@ -16,8 +25,8 @@ a:hover {
 
 .subtitle{
     font-family: 'Roboto', sans-serif;
-    font-size: 50px;
-    color: aquamarine;
+    font-size: 40px;
+    color: white;
 }
 
 .logo{
@@ -29,13 +38,13 @@ a:hover {
     max-width: 200px;
 }
 
-.left-side{
+/*.left-side, .hero{
     background-color: #00e197;
-}
+}*/
 
 .right-side{
-    background-image: url('/forwardapp/img/geometry2.png');
-    background-repeat: repeat;
+    /*background-image: url('/forwardapp/img/geometry2.png');
+    background-repeat: repeat;*/
 }
 
 footer{
