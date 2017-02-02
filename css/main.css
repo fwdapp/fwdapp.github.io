@@ -16,14 +16,14 @@ a:hover {
     color: black;
 }
 
-.title{
+.hero-title{
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
     font-size: 50px;
     color: white;
 }
 
-.subtitle{
+.hero-subtitle{
     font-family: 'Roboto', sans-serif;
     font-size: 40px;
     color: white;
