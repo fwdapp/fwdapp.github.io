@@ -17,30 +17,42 @@ a:hover {
 }
 
 .hero-title{
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Catamaran', sans-serif;
     font-weight: bold;
     font-size: 50px;
     color: white;
 }
 
 .hero-subtitle{
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Catamaran', sans-serif;
     font-size: 40px;
     color: white;
 }
 
+.title{
+    font-family: 'Catamaran', sans-serif !important;
+    color: #009465;
+}
+
 .logo{
     width: 170px;
-    height: 170px;
 }
 
 .badge{
-    max-width: 200px;
+    max-width: 150px;
+    margin-top: 10px;
 }
 
-/*.left-side, .hero{
+.hero{
     background-color: #00e197;
-}*/
+    background: radial-gradient(farthest-corner at 50% 50%, #8edcc2 0%, #00e197) !important;
+}
+
+.left-side{
+    background-color: #00e197;
+    background: radial-gradient(farthest-corner at 50% 50%, #8edcc2 0%, #00e197) !important;
+    padding: 0 !important;
+}
 
 .right-side{
     /*background-image: url('/forwardapp/img/geometry2.png');
