@@ -3,7 +3,7 @@ html {
 }
 
 body {
-    background-image: url('/forwardapp/img/geometry2.png');
+    background-image: url('/img/geometry2.png');
     background-repeat: repeat;
 }
 
@@ -45,13 +45,17 @@ a:hover {
 
 .hero{
     background-color: #00e197;
-    background: radial-gradient(farthest-corner at 50% 50%, #8edcc2 0%, #00e197) !important;
+    background: radial-gradient(circle farthest-side at 50% 20%, #8edcc2 0%, #00e197) !important;
 }
 
 .left-side{
     background-color: #00e197;
-    background: radial-gradient(farthest-corner at 50% 50%, #8edcc2 0%, #00e197) !important;
+    /*background: radial-gradient(farthest-corner at 50% 50%, #8edcc2 0%, #00e197) !important;*/
     padding: 0 !important;
+}
+
+.transparent{
+    background: transparent !important;
 }
 
 .right-side{
