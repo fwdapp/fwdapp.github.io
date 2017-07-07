@@ -17,21 +17,24 @@ a:hover {
 }
 
 .hero-title{
-    font-family: 'Catamaran', sans-serif;
-    font-weight: bold;
-    font-size: 50px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 55px;
     color: white;
 }
 
 .hero-subtitle{
-    font-family: 'Catamaran', sans-serif;
-    font-size: 40px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 25px;
     color: white;
+    padding-left: 10px;
 }
 
 .title{
-    font-family: 'Catamaran', sans-serif !important;
+    font-family: 'Open Sans', sans-serif !important;
     color: #009465;
+    text-align: justify;
+    padding: 15px 90px;
+    font-size: 22px;
 }
 
 .logo{
