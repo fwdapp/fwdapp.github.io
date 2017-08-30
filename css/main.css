@@ -70,3 +70,8 @@ footer{
     background: transparent;
     padding: 10px !important;
 }
+
+/*Twitter button*/
+.btn{
+    background-color: #00AA71 !important;
+}
