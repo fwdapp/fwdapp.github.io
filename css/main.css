@@ -32,9 +32,8 @@ a:hover {
 .title{
     font-family: 'Open Sans', sans-serif !important;
     color: #ffffff;
-    text-align: justify;
-    padding: 15px 90px;
-    font-size: 30px;
+    text-align: left;
+    padding: 15px 50px;
 }
 
 .logo{
