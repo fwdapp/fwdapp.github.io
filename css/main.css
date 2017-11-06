@@ -3,8 +3,8 @@ html {
 }
 
 body {
-    background-image: url('/img/geometry2.png');
-    background-repeat: repeat;
+    /*background-image: url('/img/geometry2.png');*/
+    /*background-repeat: repeat;*/
 }
 
 a {
@@ -19,6 +19,7 @@ a:hover {
 .hero-title{
     font-family: 'Open Sans', sans-serif;
     font-size: 55px;
+    font-weight: bold;
     color: white;
 }
 
@@ -61,8 +62,7 @@ a:hover {
 }
 
 .right-side{
-    /*background-image: url('/forwardapp/img/geometry2.png');
-    background-repeat: repeat;*/
+    background-color: #00e197;
 }
 
 footer{
