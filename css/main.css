@@ -34,7 +34,9 @@ a:hover {
     font-family: 'Open Sans', sans-serif !important;
     color: #ffffff;
     text-align: left;
-    padding: 15px 50px;
+    padding: 15px 80px;
+    font-size: 30px;
+    line-height: 1.4;
 }
 
 .logo{
