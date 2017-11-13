@@ -1,5 +1,5 @@
 html {
-    background-color: #00e197;
+    background-color: #01ffaa;
 }
 
 body {
@@ -50,7 +50,7 @@ a:hover {
 
 .hero{
     background-color: #00e197;
-    background: radial-gradient(circle farthest-side at 50% 20%, #01ffaa 0%, #00e197) !important;
+    /*radial-gradient(circle farthest-side at 50% 20%, #01ffaa 0%, #00e197) !important;*/
 }
 
 .left-side{
@@ -65,6 +65,14 @@ a:hover {
 
 .right-side{
     background-color: #00e197;
+}
+
+.top{
+    background: #01ffaa;
+    background: -moz-linear-gradient(top, #01ffaa 0%, #00e197 100%);
+    background: -webkit-linear-gradient(top, #01ffaa 0%,#00e197 100%);
+    background: linear-gradient(to bottom, #01ffaa 0%,#00e197 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#01ffaa', endColorstr='#00e197',GradientType=0 );
 }
 
 footer{
