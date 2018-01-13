@@ -1,10 +1,7 @@
-html {
-    background-color: #01ffaa;
-}
+html {}
 
 body {
-    /*background-image: url('/img/geometry2.png');*/
-    /*background-repeat: repeat;*/
+    background:linear-gradient(135deg, #00e197 0%,#17ead9 100%);
 }
 
 a {
@@ -49,12 +46,14 @@ a:hover {
 }
 
 .hero{
-    background-color: #00e197;
+    background: transparent !important;
+    /* background-color: #00e197; */
     /*radial-gradient(circle farthest-side at 50% 20%, #01ffaa 0%, #00e197) !important;*/
 }
 
 .left-side{
-    background-color: #00e197;
+    background: transparent !important;
+    /* background-color: #00e197; */
     /*background: radial-gradient(farthest-corner at 50% 50%, #8edcc2 0%, #00e197) !important;*/
     padding: 0 !important;
 }
@@ -64,8 +63,9 @@ a:hover {
 }
 
 .right-side{
+    background: transparent !important;
     min-height: 700px;
-    background-color: #00e197;
+    /* background-color: #00e197; */
 }
 
 .top{
