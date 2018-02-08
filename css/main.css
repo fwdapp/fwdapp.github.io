@@ -140,3 +140,8 @@ footer{
 .btn{
     background-color: #00AA71 !important;
 }
+
+.p-title{
+    font-weight: bold !important;
+    color: #00e197;
+}
