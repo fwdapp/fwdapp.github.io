@@ -148,10 +148,10 @@ footer{
 }
 .phone{
     margin-top: 40px;
-    position: relative;
 }
 .video{
-    position: absolute;
+    margin-top: 40px;
+    margin-left: 31px;
 }
 .template{
     position: absolute;
