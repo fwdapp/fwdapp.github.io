@@ -13,28 +13,40 @@ a:hover {
     color: black;
 }
 
+.header-title{
+    color: #666 !important;
+}
+
+.header-subtitle{
+    color: #777 !important;
+}
+
 .hero-title{
     font-family: 'Open Sans', sans-serif;
     font-size: 55px;
     font-weight: bold;
-    color: #555;
+    color: white;
 }
 
 .hero-subtitle{
     font-family: 'Open Sans', sans-serif;
     font-size: 35px;
     font-weight: bold;
-    color: #555;
+    color: white;
     padding-left: 10px;
 }
 
-.title{
+.description{
     font-family: 'Open Sans', sans-serif !important;
-    color: #555;
+    color: white;
     text-align: center !important;
     padding: 15px 80px;
     font-size: 25px;
     line-height: 1.4;
+}
+
+.header-description{
+    color: #555 !important;
 }
 
 .logo{
